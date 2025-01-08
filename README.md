@@ -4,6 +4,7 @@ Python 3.9.5
 UE 5.5
 
 instalar opencv
+
 instalar mediapipe
 
 En caso de ejecutar el fichero python y recibir un error ejecutar "pip install msvc-runtime"
