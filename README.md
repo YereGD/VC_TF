@@ -13,6 +13,13 @@ El script de python lo que hace principalmente es abrir un “video source”, y
 
 Al principio pensábamos usar el siguiente esqueleto como modelo para pasarlo a un “rig” propio en UE y después hacer un retarget en tiempo real. Pero nos dimos cuenta que era demasiado complejo, entonces decidimos primeramente usar las posiciones de las manos, los pies y el rootbone (El centro de la cadera), esas posiciones se usarán como “Goal” para los IK de cada parte, y el rootbone se modificará la posición directamente.
 
+Una vez tenga los landmarks, se convertirá las posiciones relativas normalizadas a una estimación de la realidad, usando la altura del maniquí y la altura de la persona que se graba, en este caso 173, pero ponemos 170 porque el landmark no está en la parte superior de la cabeza. También se estimará la rotación del personaje teniendo en cuenta la posición de los hombros.
+
+Después se enviará mediante UDP por el puerto 10001, donde el proyecto de UE estará escuchando (Gracias al plugin https://github.com/getnamo/UDP-Unreal), recogerá los valores y se los enviará al blueprint “AnimGraph” del personaje, que permitirá modificar la pose final del personaje.
+
+![image](https://github.com/user-attachments/assets/f45198c5-4866-4dc1-aed5-d5a6b19d2b92)
+
+
 ### ✍️ Authors
 [Adonaí Hernández Bolaños](https://github.com/AdonaiHernandez)
 
