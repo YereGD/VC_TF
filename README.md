@@ -1,4 +1,11 @@
-# VC_TF
+# Trabajo de curso
+## Control de Personajes en Tiempo Real Usando MediaPipe y Unreal Engine
+
+## 🌟 Highlights
+ - Control en tiempo real de un Maniquí usando IK y MediaPipe pose
+   
+![tfvc](https://github.com/user-attachments/assets/fb7a6284-231c-4946-a532-1b4ddea3107e)
+   
 
 Python 3.9.5
 UE 5.5
