@@ -13,6 +13,9 @@ El script de python lo que hace principalmente es abrir un “video source”, y
 
 Al principio pensábamos usar el siguiente esqueleto como modelo para pasarlo a un “rig” propio en UE y después hacer un retarget en tiempo real. Pero nos dimos cuenta que era demasiado complejo, entonces decidimos primeramente usar las posiciones de las manos, los pies y el rootbone (El centro de la cadera), esas posiciones se usarán como “Goal” para los IK de cada parte, y el rootbone se modificará la posición directamente.
 
+### ✍️ Authors
+[Adonaí Hernández Bolaños](https://github.com/AdonaiHernandez)
+[Yeremay García Déniz](https://github.com/YereGD)
 
 Python 3.9.5
 UE 5.5
