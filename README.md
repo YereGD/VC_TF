@@ -13,7 +13,7 @@ El script de python lo que hace principalmente es abrir un “video source”, y
 
 Al principio pensábamos usar el siguiente esqueleto como modelo para pasarlo a un “rig” propio en UE y después hacer un retarget en tiempo real. Pero nos dimos cuenta que era demasiado complejo, entonces decidimos primeramente usar las posiciones de las manos, los pies y el rootbone (El centro de la cadera), esas posiciones se usarán como “Goal” para los IK de cada parte, y el rootbone se modificará la posición directamente.
 
-![esqueleto](https://github.com/user-attachments/assets/205d8e86-d494-4925-a1a9-97f71795b844 =200x)
+![file](https://github.com/user-attachments/assets/22b17ed9-5ced-497c-9b5d-02cd8d8d706f)
 
 Una vez tenga los landmarks, se convertirá las posiciones relativas normalizadas a una estimación de la realidad, usando la altura del maniquí y la altura de la persona que se graba, en este caso 173, pero ponemos 170 porque el landmark no está en la parte superior de la cabeza. También se estimará la rotación del personaje teniendo en cuenta la posición de los hombros.
 
