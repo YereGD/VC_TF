@@ -30,7 +30,7 @@ Después se enviará mediante UDP por el puerto 10001, donde el proyecto de UE e
 
 ## 🚀 Usage
 
-1. Ejecutar el binario compilado de UE o el proyecto de UE [Relesae](https://github.com/YereGD/VC_TF/releases/tag/UE5)
+1. Ejecutar el binario compilado de UE o el proyecto de UE [Release](https://github.com/YereGD/VC_TF/releases/tag/UE5)
 
 2. Ejecutar el script de python "mediapipepose.py"
 
