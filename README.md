@@ -5,6 +5,10 @@
  - Control en tiempo real de un Maniquí usando IK y MediaPipe pose
    
 ![tfvc](https://github.com/user-attachments/assets/fb7a6284-231c-4946-a532-1b4ddea3107e)
+
+ - Video de presentación
+
+   https://drive.google.com/file/d/1Wul9qwGuyMQetGKhewn3Mw8z487GlX7E/view?usp=sharing
    
 ## ℹ️ Overview
 Nuestra idea inicial era usar Yolo pose estimation, pero nos encontramos con un problema, no te daba las coordenadas 3D de los puntos de interés, entonces después de mirar varias opciones, nos quedamos con mediapipe, que sí nos daban las coordenadas 3D de los “landmarks”.
